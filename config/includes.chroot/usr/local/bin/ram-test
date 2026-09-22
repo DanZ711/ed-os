@@ -1,0 +1,15 @@
+#!/bin/bash
+# ram-test: masoara RAM-ul folosit, afiseaza fiecare citire, media si maximul
+# Folosire: ram-test [numar_citiri] [secunde_intre_citiri]
+N=${1:-5}
+PAUZA=${2:-10}
+suma=0; max=0
+for i in $(seq 1 $N); do
+    val=$(free -m | awk '/^Mem:/ {print $3}')
+    echo "Citirea $i: $val MB"
+    suma=$((suma + val))
+    [ $val -gt $max ] && max=$val
+    [ $i -lt $N ] && sleep $PAUZA
+done
+echo "-----"
+echo "Media: $((suma / N)) MB | Maxim: $max MB"

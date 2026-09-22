@@ -1,0 +1,17 @@
+xserver-xorg-core
+xserver-xorg-video-all
+xserver-xorg-input-all
+xinit
+lxqt-core
+qterminal
+lightdm
+lightdm-gtk-greeter
+firefox-esr
+network-manager
+zram-tools
+fonts-dejavu
+sudo
+openbox
+pcmanfm-qt
+user-setup
+libpci3
