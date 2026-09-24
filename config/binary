@@ -10,7 +10,7 @@ LB_BINARY_FILESYSTEM="fat32"
 LB_APT_INDICES="true"
 
 # Set boot parameters
-LB_BOOTAPPEND_LIVE="boot=live components quiet splash"
+LB_BOOTAPPEND_LIVE="boot=live components locales=ro_RO.UTF-8 keyboard-layouts=us,ro keyboard-variants=,std keyboard-options=grp:alt_shift_toggle timezone=Europe/Bucharest"
 
 # Set boot parameters
 LB_BOOTAPPEND_INSTALL=""

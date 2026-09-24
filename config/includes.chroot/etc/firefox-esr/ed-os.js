@@ -3,3 +3,4 @@
 pref("fission.autostart", false);
 pref("dom.ipc.processCount", 2);
 pref("dom.ipc.processPrelaunch.enabled", false);
+pref("browser.aboutwelcome.enabled", false);

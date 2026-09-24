@@ -1,0 +1,23 @@
+{
+  "policies": {
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableProfileImport": true,
+    "DontCheckDefaultBrowser": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "FirefoxHome": {
+      "SponsoredTopSites": false,
+      "SponsoredPocket": false,
+      "Pocket": false
+    },
+    "UserMessaging": {
+      "WhatsNew": false,
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "MoreFromMozilla": false,
+      "SkipOnboarding": true
+    }
+  }
+}
